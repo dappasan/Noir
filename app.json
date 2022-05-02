@@ -9,8 +9,8 @@
          "yinsrobot"
       ],
     
-   "logo":    "https://telegra.ph/file/64f4b1e3ab6d6911447d2.jpg",  
-   "repository": "https://github.com/AyiinXd/https://github.com/AyiinXd/YinsRobot",
+   "logo":    "https://telegra.ph/file/7e2c64c1258218a2ef62a.jpg",  
+   "repository": "https://github.com/ReyyNada/https://github.com/ReyyNada/Noir",
    "addons": [
           {
          "options": {
@@ -31,32 +31,32 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": "5383979704:AAGcqz0YjkZlccwzAqPQmsk3Dc0TLpjo5a8"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "14439499"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "82294c6a58d3cbd86deb1e54518f999e"
       },    
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "2088106582"
+         "value": "851754691"
      },
 
       "STRING_SESSION": {
          "description": "Fill with telethon string session.",
          "required": true,
-         "value": "" 
+         "value": "1BVtsOI8Bu34DZ-FQpaQpPgW006z7RqqeES2YQqVCcRuakWwLvbiluZC8y6OCiqvhSDIm8-1dZDjHNo6lB_sJY-rcMAHylrjdJXNSJE_uadSnnopLpq2zgx1rXvVZ74nkn-9Oq9H1yanIbYjE35u9K1AUYtffCWCM_IJaouNM8MkCuO61uzGb0on8vP-_r-UfLuF8UsXJ9aWjCg0OVZ8smRdpdeoiVMA_hNlAjBShT6GTmzIeMr3JaRMD4fBGndQOm66r1xIpgH-OGtCBw0Y7Zy8DetNC0YDiA5L0VswF0Dy6DL7e6rpimiY_dj0WJNMb6re5xHxcULeXityrD1TDXM9WsCmm0Pc=" 
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
-        "value": ""
+        "value": "51044b08-105c-477d-81d8-22efc50350c2"
       },
       "HEROKU_APP_NAME": {
         "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
@@ -64,27 +64,27 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": "emiexrobot"
+         "value": "NoirPunyaBot"
       },
 
       "BOT_ID": {
          "description": "to get your bot_id using other bot or userbot",
-         "value": ""
+         "value": "5383979704"
       },
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "AyiinXd"
+         "value": "mahalora"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "AyiinXdSupport"
+         "value": "pantekyks"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": ""
+         "value": "mongodb+srv://OuraMusic:waer1902@cluster0.dc14q.mongodb.net/test?myFirstDatabase?retryWrites=true&w=majority"
       },
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
@@ -97,12 +97,12 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001626554919"
+         "value": "-1001725653166"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001626554919"
+         "value": "-1001725653166"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -124,12 +124,12 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": ""
+         "value": "851754691"
      },
       "ERROR_LOG": {
          "description": "ID of log for show error.",
          "required": false,
-         "value": ""
+         "value": "-1001001725653166"
      },
         "ARQ_API": {
             "description": "Get this from @ARQRobot.",
