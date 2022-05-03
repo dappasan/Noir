@@ -15,7 +15,6 @@ from telegram.utils.helpers import mention_html
 
 from YinsRobot import dispatcher
 from YinsRobot.modules.disable import DisableAbleCommandHandler
-from YinsRobot.modules.language import gs
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 
