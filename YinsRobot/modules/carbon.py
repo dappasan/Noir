@@ -32,11 +32,11 @@ async def repo(_, message):
         photo=MEMEK,
         caption=f"""✨ **Hey I'm ɴᴏɪʀ ** 
 
-**Oᴡɴᴇʀ Rᴇᴘᴏ : [lora](https://t.me/mahalora)**
-**Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{y()}`
-**Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{o}`
-**Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{s}`
-**Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{z}`
+**Owner Repo : [dappa](https://t.me/mahadappa)**
+**Python Version :** `{y()}`
+**Library Version :** `{o}`
+**Telethon Version :** `{s}`
+**Pyrogram Version :** `{z}`
 
 **Create your own with click button bellow.**
 """,
@@ -46,7 +46,7 @@ async def repo(_, message):
                     InlineKeyboardButton(
                         "Repo", url="www.xnxx.com"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/pantekyks")
+                        "Channel", url="https://t.me/st4yhallal")
                 ]
             ]
         )
