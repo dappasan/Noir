@@ -460,13 +460,12 @@ def yins_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
-                 
                     InlineKeyboardButton(text="AyiinXd", url="https://github.com/AyiinXd"),
                     InlineKeyboardButton(text="Ayiin-Userbot", url="https://github.com/AyiinXd/Ayiin-Userbot"),
                  ],
                  [
-                    InlineKeyboardButton(text="ReyyNada", url="https://github.com/ReyyNada"),
-                    InlineKeyboardButton(text="ɴᴏɪʀ", url="https://github.com/ReyyNada/Noir"),
+                    InlineKeyboardButton(text="AyiinMusic", url="https://github.com/AyiinXd/AyiinMusic"),
+                    InlineKeyboardButton(text="YinsRobot", url="https://github.com/AyiinXd/YinsRobot"),
                  ],
                  [
                     InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
