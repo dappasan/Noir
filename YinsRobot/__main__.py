@@ -360,7 +360,7 @@ def yins_about_callback(update, context):
     query = update.callback_query
     if query.data == "yins_":
         query.message.edit_text(
-            text="๏ I'm *Yins*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *ɴᴏɪʀ*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -368,7 +368,7 @@ def yins_about_callback(update, context):
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
             "\n\n_Yin's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for YinsRobot.",
+            "\n\n Click on button bellow to get basic help for ɴᴏɪʀ.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -382,7 +382,7 @@ def yins_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="yins_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/AyiinXd/YinsRobot"),
+                    InlineKeyboardButton(text="Source Code", url="www.xnxx.com"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="yins_back"),
@@ -441,8 +441,8 @@ def yins_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/AyiinXdSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/AyiinSupport"),
+                    InlineKeyboardButton(text="Support", url="t.me/pantekyks"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/stayhall4l2"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="yins_"),
@@ -456,17 +456,17 @@ def yins_about_callback(update, context):
     elif query.data == "yins_credit":
         query.message.edit_text(
             text=f"๏ Credis for Yins\n"
-            "\nHere Developers Making And Give Inspiration For Made The YinsRobot",
+            "\nHere Developers Making And Give Inspiration For Made The ɴᴏɪʀ",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
-                 [
+                 
                     InlineKeyboardButton(text="AyiinXd", url="https://github.com/AyiinXd"),
                     InlineKeyboardButton(text="Ayiin-Userbot", url="https://github.com/AyiinXd/Ayiin-Userbot"),
                  ],
                  [
-                    InlineKeyboardButton(text="AyiinMusic", url="https://github.com/AyiinXd/AyiinMusic"),
-                    InlineKeyboardButton(text="YinsRobot", url="https://github.com/AyiinXd/YinsRobot"),
+                    InlineKeyboardButton(text="ReyyNada", url="https://github.com/ReyyNada"),
+                    InlineKeyboardButton(text="ɴᴏɪʀ", url="https://github.com/ReyyNada/Noir"),
                  ],
                  [
                     InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
