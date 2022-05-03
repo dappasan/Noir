@@ -10,13 +10,13 @@ from pyrogram.types import (
     Message,
 )
 
-from BdrlRobot import pbot as Client
-from BdrlRobot import (
+from YinsRobot import pbot as Client
+from YinsRobot import (
     OWNER_ID as owner_id,
     OWNER_USERNAME as owner_usn,
     SUPPORT_CHAT as log,
 )
-from BdrlRobot.utils.errors import capture_err
+from YinsRobot.utils.errors import capture_err
 
 
 def content(msg: Message) -> [None, str]:
@@ -50,7 +50,7 @@ async def bug(_, msg: Message):
     thumb = "https://telegra.ph/file/6a3a0bd313634d1b20e4a.jpg"
     
     bug_report = f"""
-**#BUG : ** **@mahalora**
+**#BUG : ** **@mahadappa**
 
 **From User : ** **{mention}**
 **User ID : ** **{user_id}**
