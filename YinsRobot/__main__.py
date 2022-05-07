@@ -435,14 +435,14 @@ def yins_about_callback(update, context):
         )
     elif query.data == "yins_support":
         query.message.edit_text(
-            text="*๏ Yins support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Yins.",
+            text="*๏ ɴᴏɪʀ support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on ɴᴏɪʀ.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
                     InlineKeyboardButton(text="Support", url="t.me/pantekyks"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/stayhall4l2"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/st4yhallal"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="yins_"),
