@@ -455,7 +455,7 @@ def yins_about_callback(update, context):
 
     elif query.data == "yins_credit":
         query.message.edit_text(
-            text=f"๏ Credis for Yins\n"
+            text=f"๏ Credis for ɴᴏɪʀ\n"
             "\nHere Developers Making And Give Inspiration For Made The ɴᴏɪʀ",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -479,6 +479,9 @@ def yins_about_callback(update, context):
                  [
                     InlineKeyboardButton(text="Queen Arzoo", url="https://github.com/QueenArzoo"),
                     InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="Dappa", url="https://github.com/ReyyNada"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="yins_"),
