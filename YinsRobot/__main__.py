@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an ɴᴏɪʀ management bot [✨](https://telegra.ph/file/7e2c64c1258218a2ef62a.jpg)
+✪ I'm an ᴢᴇᴀ management bot [✨](https://telegra.ph/file/7e2c64c1258218a2ef62a.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -93,7 +93,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ɴᴏɪʀ ", callback_data="yins_"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴢᴇᴀ ", callback_data="yins_"),
     ],
     [
         InlineKeyboardButton(text="ɢᴇᴛ ʜᴇʟᴘ", callback_data="help_back"),
@@ -103,7 +103,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ ᴀᴅᴅ ɴᴏɪʀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="➗ ᴀᴅᴅ ᴢᴇᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
@@ -360,15 +360,15 @@ def yins_about_callback(update, context):
     query = update.callback_query
     if query.data == "yins_":
         query.message.edit_text(
-            text="๏ I'm *ɴᴏɪʀ*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *ᴢᴇᴀ*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_ɴᴏɪʀ licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for ɴᴏɪʀ.",
+            "\n\n_ᴢᴇᴀ licensed under the GNU General Public License v3.0_"
+            "\n\n Click on button bellow to get basic help for ᴢᴇᴀ.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -408,7 +408,7 @@ def yins_about_callback(update, context):
     elif query.data == "yins_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, ɴᴏɪʀ now ready to manage your group."
+            "\nCongragulations, ᴢᴇᴀ now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -435,8 +435,8 @@ def yins_about_callback(update, context):
         )
     elif query.data == "yins_support":
         query.message.edit_text(
-            text="*๏ ɴᴏɪʀ support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on ɴᴏɪʀ.",
+            text="*๏ ᴢᴇᴀ support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on ᴢᴇᴀ.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -455,8 +455,8 @@ def yins_about_callback(update, context):
 
     elif query.data == "yins_credit":
         query.message.edit_text(
-            text=f"๏ Credis for ɴᴏɪʀ\n"
-            "\nHere Developers Making And Give Inspiration For Made The ɴᴏɪʀ",
+            text=f"๏ Credis for ᴢᴇᴀ\n"
+            "\nHere Developers Making And Give Inspiration For Made The ᴢᴇᴀ",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
