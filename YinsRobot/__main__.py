@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an ᴢᴇᴀ management bot [✨](https://telegra.ph/file/7e2c64c1258218a2ef62a.jpg)
+✪ I'm an ᴢᴇᴀ management bot [✨](https://telegra.ph/file/4d5859f35db5a7431fbe4.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -442,7 +442,7 @@ def yins_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Support", url="t.me/pantekyks"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/st4yhallal"),
+                    InlineKeyboardButton(text="Updates", url="youtube.com"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="yins_"),
