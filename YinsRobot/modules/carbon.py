@@ -33,6 +33,7 @@ async def repo(_, message):
         caption=f"""✨ **Hey I'm ɴᴏɪʀ ** 
 
 **Owner Repo : [dappa](https://t.me/mahadappa)**
+**Owner Repo : [bdrl](https://t.me/bdrlbukan)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
@@ -46,7 +47,7 @@ async def repo(_, message):
                     InlineKeyboardButton(
                         "Repo", url="www.xnxx.com"), 
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/st4yhallal")
+                        "Channel", url="youtube.com")
                 ]
             ]
         )
