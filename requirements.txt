@@ -53,6 +53,7 @@ asyncio
 cloudscraper
 dateparser
 pymongo
+python-dotenv
 dnspython
 secureme
 apscheduler
