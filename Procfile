@@ -1,1 +1,1 @@
-worker: python3 -m YinsRobot
+worker: bash start
