@@ -9,11 +9,11 @@ from YinsRobot.events import register
 from YinsRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/a78aae675c82a067d9437.jpg"
+PHOTO = "https://telegra.ph/file/bf54e4510c2bf3ebed4a6.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm zea.** \n\n"
+  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm ɪᴄʜɪʀᴏ.** \n\n"
   TEXT += "✨ **DUA TIGA TUTUP BOTOL BACOT KONTOL** \n\n"
   
 
