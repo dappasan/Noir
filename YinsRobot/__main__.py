@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an ᴢᴇᴀ management bot [✨](https://telegra.ph/file/4d5859f35db5a7431fbe4.jpg)
+✪ I'm an ɪᴄʜɪʀᴏ management bot [✨](https://telegra.ph/file/bf54e4510c2bf3ebed4a6.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -103,7 +103,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ ᴀᴅᴅ ᴢᴇᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="➗ ᴀᴅᴅ ɪᴄʜɪʀᴏ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
@@ -113,7 +113,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @AyiinXd \
+ You can support the project by contacting www.xnxx.com \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -360,15 +360,15 @@ def yins_about_callback(update, context):
     query = update.callback_query
     if query.data == "yins_":
         query.message.edit_text(
-            text="๏ I'm *ᴢᴇᴀ*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *ɪᴄʜɪʀᴏ*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_ᴢᴇᴀ licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for ᴢᴇᴀ.",
+            "\n\n_ɪᴄʜɪʀᴏ licensed under the GNU General Public License v3.0_"
+            "\n\n Click on button bellow to get basic help for ɪᴄʜɪʀᴏ.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
