@@ -24,13 +24,13 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-MEMEK = "https://telegra.ph/file/a78aae675c82a067d9437.jpg"
+MEMEK = "https://telegra.ph/file/bf54e4510c2bf3ebed4a6.jpg"
 
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""✨ **Hey I'm zea ** 
+        caption=f"""✨ **Hey I'm ɪᴄʜɪʀᴏ ** 
 
 **Tingkat kesangean : 100%**
 **Python Version :** `{y()}`
