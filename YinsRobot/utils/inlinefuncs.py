@@ -102,7 +102,7 @@ async def inline_help_func(__HELP__):
             input_message_content=InputTextMessageContent(
                 "**__Click A Button To Get Started.__**"
             ),
-            thumb_url="https://telegra.ph/file/bf54e4510c2bf3ebed4a6.jpg",
+            thumb_url="https://telegra.ph/file/dbbb842f911facca0a83e.jpg",
             reply_markup=buttons,
         ),
     ]
@@ -122,7 +122,7 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[ɪᴄʜɪʀᴏ✨](https://t.me/ichitrotapibot):**
+**[ɪᴛsᴜᴋᴀ✨](https://t.me/itsukatpibot):**
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`
@@ -135,7 +135,7 @@ async def alive_function(answers):
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/bf54e4510c2bf3ebed4a6.jpg",
+            thumb_url="https://telegra.ph/file/dbbb842f911facca0a83e.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
